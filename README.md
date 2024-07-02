@@ -10,8 +10,12 @@ This script should be run when your device is connected over usb with usb debugg
      or follow [this guide](https://itsfoss.com/install-adb-fastboot-linux/)
   2. scrcpy [Official Instructions](https://github.com/Genymobile/scrcpy/blob/master/doc/linux.md) If you don't want to build it, you can download it from the snap store using ``snap install scrcpy``
       Official repo for scrcpy: [scrcpy](https://github.com/Genymobile/scrcpy)
+# EZ-Setup & Use
+  ``curl https://github.com/Zacctus/scrcpy-over-wifi/scrcpy-ow.sh && chmod +x scrcpy-ow.sh && bash scrcpy-ow.sh``
+  
+  This command will download the script, make it executable, then run it on your system. make sure to open the terminal in a directory you frequent such as home or Desktop to make it easier to find in future
 
-# Usage
+# Regular Usage
 
 ## Linux
 ```bash scrcpy-ow.sh``` or ```./scrcpy-ow.sh```
@@ -27,7 +31,6 @@ After running the script, pay attention for the message
 ## 1. Are both of your devices connected to the same Wi-Fi Network?
 ## 2. Does your computer recognize your Android device 
  run  ``adb devices`` and check the output. If successful it should show you an ip adrress or serial number first, then the word "device"
-## 3  
 
 ## To-Do
 - [ ] powershell version for Windows OS
